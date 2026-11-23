@@ -1,0 +1,17 @@
+{
+  "name": "cl14-sika-logistica",
+  "version": "8.1.0",
+  "private": true,
+  "description": "CL14 · Centro de operaciones logísticas (Sika Chile). Aplicación web estática, sin dependencias en tiempo de ejecución.",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "lint": "eslint js/app.js",
+    "check:data": "node tools/check-data.mjs",
+    "format": "prettier --write css/styles.css js/app.js index.html",
+    "test": "npm run lint && npm run check:data"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.0"
+  }
+}

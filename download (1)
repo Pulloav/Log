@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+# Datos reales (choferes/patentes, respaldos) — nunca al repositorio
+js/data/drivers.real.js
+drivers.REAL.js
+CL14_respaldo_*.json
+*.xlsx
+.env

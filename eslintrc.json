@@ -1,0 +1,37 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2022": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "script"
+  },
+  "globals": {
+    "DRIVERS_SEED": "readonly",
+    "CLIENT_OPTIONS": "readonly",
+    "PRODUCT_OPTIONS": "readonly",
+    "MATERIAL_SEED": "readonly"
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-unused-vars": [
+      "warn",
+      {
+        "args": "none"
+      }
+    ],
+    "no-useless-escape": "off",
+    "no-empty": [
+      "warn",
+      {
+        "allowEmptyCatch": true
+      }
+    ],
+    "no-prototype-builtins": "off",
+    "no-inner-declarations": "off"
+  }
+}
